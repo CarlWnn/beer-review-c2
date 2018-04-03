@@ -19,22 +19,43 @@
         </section>
 
         <form class="beer-form">
-          <h3>Add a New Beer</h3>
 
-          <div class="form-group">
-            <input type="text"
-              class="beer-input form-control"
-              placeholder="Beer Name">
-          </div>
+            <h3>Add a New Beer</h3>
 
-          <div class="form-group">
-            <input type="text"
-              class="category-input form-control"
-              placeholder="Category">
-          </div>
+            <div class="form-group">
+                <input type="text"
+                       class="beer-input"
+                       placeholder="Beer Name">
+            </div>
 
-          <button class="btn btn-primary post-beer" type="button">Post</button>
+            <div class="form-group">
+                <input type="text"
+                       class="category-input"
+                       placeholder="Category">
+            </div>
+
+            <div class="form-group">
+                <label for="rate"> Rate the beer </label>
+                <select label id="rate">
+                    <option value="0"> 0 </option>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                </select>
+            </div>
+
+                <br /> <br />
+
+                <button class="btn btn-primary post-beer" type="button">Post</button>
+
+                <br /> <br />
+
+                <button class="btn btn-primary sort-by-rate" type="button"> Sort by rate </button>
         </form>
+
+        
       </div>
     </div>
     </div>
